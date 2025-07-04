@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.head{
+    display: flex;
+    align-items: center;
+    background-color: #2f3542 ;
+    width: 95%;
+    margin: auto;
+    padding: 1rem 3rem;
+    color: #ced6e0;
+    justify-content: space-between;
+}
+.sign_in_up {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+.sign_in_up a{
+    text-decoration: none;
+    color: #61dafb;
+}
+
+/* second nav  */
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 95%;
+    margin: auto;
+    padding: 1rem 3rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.navbar ul{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.navbar ul li{
+    list-style: none;
+}
+.navbar-brand a{
+    text-decoration: none;
+}
+.navbar ul li
+.navbar-brand a{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-size: 16px;
+  color: black;
+}
+
+.active {
+  color: #61dafb;
+  font-weight: 600;
+}
+.index{
+    color: #2f3542;
+    font-size: 2rem;
+}
+
+
+/* footer part start  */
+footer {
+  background-color: #282c34;
+  color: #fff;
+  width: 95%;
+  margin: auto;
+  padding: 1rem 3rem;
+  font-family: Arial, sans-serif;
+}
+
+.social-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.logo {
+  flex: 1;
+  min-width: 250px;
+}
+
+.logo h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.logo p {
+  font-size: 14px;
+  color: #ccc;
+  margin-bottom: 15px;
+}
+
+.social-icon {
+  display: flex;
+  gap: 15px;
+}
+
+.social-icon svg {
+  font-size: 24px;
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+.social-icon svg:hover {
+  color: #61dafb;
+}
+
+.shopping-link, .experience, .news-filter {
+  flex: 1;
+
+}
+
+.shopping-link h2, .experience h2, .news-filter h2 {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.shopping-link ul, .experience ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: #ccc;
+  font-size: 14px;
+  transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+  color: #fff;
+}
+
+.news-filter p {
+  font-size: 14px;
+  color: #ccc;
+  margin-bottom: 15px;
+}
+
+.news-filter input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #333;
+  color: #fff;
+}
+
+.writer {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 12px;
+  color: #999;
+}
+
+
+
+/* home page  */
+.home-page{
+  width: 95%;
+  background-color: #61dafb;
+  margin: auto;
+  padding: 1rem 3rem;
+}
