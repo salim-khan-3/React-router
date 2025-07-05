@@ -5,6 +5,7 @@ import { Contact } from "./pages/Contact";
 import { createBrowserRouter, RouterProvider } from "react-router-dom"
 import AppLayout from "./components/layout/AppLayout";
 import "./App.css"
+import { ErrorPage } from "./pages/ErrorPage";
 const App = () =>{
 
   const router = createBrowserRouter([
@@ -12,6 +13,7 @@ const App = () =>{
     {
       path:"/",
       element:<AppLayout/>,
+      errorElement:<ErrorPage/>,
       children: [
         {
           path:"/",
