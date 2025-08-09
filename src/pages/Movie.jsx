@@ -1,9 +1,18 @@
+import { useLoaderData } from "react-router-dom"
+import { Card } from "../components/UI/Card";
+
 export const Movie = () => {
+    const moviesData = useLoaderData();
+    console.log(moviesData);
     return (
         <>
-            <div className="home-page">
-                <h1>hello world and welcome our Movie page </h1>
-            </div>
+            <ul>
+                           {
+            moviesData.Search.map((currMovies)=>{
+                return <Card key={currMovies.imdbID} currMovie={currMovies}/>
+            } )
+           }
+            </ul>
         </>
     )
 }

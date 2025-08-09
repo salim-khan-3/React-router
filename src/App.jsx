@@ -6,6 +6,10 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom"
 import AppLayout from "./components/layout/AppLayout";
 import "./App.css"
 import { ErrorPage } from "./pages/ErrorPage";
+import { getMoviesData } from "./api/GetApiData";
+
+
+
 const App = () =>{
 
   const router = createBrowserRouter([
@@ -26,6 +30,7 @@ const App = () =>{
         {
           path:"/movie",
           element:<Movie/>,
+          loader:getMoviesData,
         },
         {
           path:"/contact",
